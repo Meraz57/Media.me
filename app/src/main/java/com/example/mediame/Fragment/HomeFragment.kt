@@ -62,16 +62,9 @@ class HomeFragment : Fragment() {
     })
 
 
-        myobj.onClick = {title ->
 
-            Toast.makeText(context, "Title: $title", Toast.LENGTH_SHORT).show()
-            currentfragments(commentFragment())
-
-        }
 
     }
-
-
 
     private fun currentfragments(fragment: Fragment) =
         requireActivity().supportFragmentManager.beginTransaction().apply {

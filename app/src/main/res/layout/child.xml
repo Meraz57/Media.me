@@ -75,8 +75,8 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/writearticleid"
             android:layout_toRightOf="@id/profileid"
-            android:background="@drawable/edittextbackground"
-            android:text="    #tag     "
+
+            android:text="       #tag       "
             android:textColor="@color/white"
             android:textSize="15sp" />
 

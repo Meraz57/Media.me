@@ -32,6 +32,7 @@
            />
 
        <EditText
+           android:id="@+id/usernametextid"
            android:layout_width="300dp"
            android:layout_height="50dp"
            android:background="@drawable/edittextbackground"
@@ -40,13 +41,14 @@
            android:textColorHint="@color/white"
            android:textAlignment="textStart"
            android:paddingLeft="20dp"
-           android:inputType="text"
+           android:inputType="textPersonName"
            android:textSize="20dp"
            android:textColor="@color/white"
            tools:ignore="RtlCompat" />
 
 
        <EditText
+           android:id="@+id/emailtextid"
            android:layout_width="300dp"
            android:layout_height="50dp"
            android:background="@drawable/edittextbackground"
@@ -61,6 +63,7 @@
            tools:ignore="RtlCompat" />
 
        <EditText
+           android:id="@+id/passwordtextid"
            android:textColor="@color/white"
            android:layout_width="300dp"
            android:layout_height="50dp"
