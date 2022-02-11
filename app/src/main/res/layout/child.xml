@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_dark_background"
+        android:padding="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profileid"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="10dp"
+            android:background="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/nameid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/profileid"
+            android:text="Jahidul islam"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/dateandtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nameid"
+            android:layout_toRightOf="@id/profileid"
+            android:text="date"
+            android:textColor="@color/white"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/tittleid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dateandtime"
+            android:layout_toRightOf="@id/profileid"
+            android:text="PostTittle"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/articleaboutid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tittleid"
+            android:layout_toRightOf="@id/profileid"
+            android:text="Article about"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/writearticleid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/articleaboutid"
+            android:layout_toRightOf="@id/profileid"
+            android:text="Write your article"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tagid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/writearticleid"
+            android:layout_toRightOf="@id/profileid"
+            android:background="@drawable/edittextbackground"
+            android:text="    #tag     "
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tagid">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/likeid"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15sp"
+                android:background="@drawable/like"
+                android:backgroundTint="@color/white" />
+
+            <TextView
+                android:id="@+id/liketextid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@id/likeid"
+                android:text="10"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/commentid"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/chat"
+                android:backgroundTint="@color/white" />
+
+            <TextView
+                android:id="@+id/textcommentid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@id/commentid"
+                android:text="05"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/shareid"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/share"
+                android:backgroundTint="@color/white" />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    </RelativeLayout>
+
+
+

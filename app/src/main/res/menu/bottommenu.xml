@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/homeitemid"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:iconTint="@color/white"
+        android:title="Home"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/postitemid"
+        android:icon="@drawable/ic_baseline_post_add_24"
+        android:iconTint="@color/white"
+        android:title="Post"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/notificationitemid"
+        android:icon="@drawable/ic_baseline_notifications_none_24"
+        android:iconTint="@color/white"
+        android:title="Notification"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/profileitemid"
+        android:icon="@drawable/ic_baseline_account_box_24"
+        android:iconTint="@color/white"
+        android:title="Profile"
+        app:showAsAction="always"/>
+</menu>

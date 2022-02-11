@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#404040"
+    android:padding="20dp"
+    android:orientation="vertical"
+
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create new post"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginBottom="20dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:id="@+id/postedittextid1"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:hint="Article Tittle"
+        android:textColorHint="@color/white"
+        />
+
+    <EditText
+        android:id="@+id/postedittextid2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/white"
+        android:hint="What,s this article about ?"
+        android:minHeight="48dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="15dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:gravity="start"
+        android:hint="Write your article (in markdown)"
+        android:textColorHint="@color/white"
+        android:textAlignment="viewStart"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:id="@+id/postedittext"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:hint="Enter Tag ex: (#tag)"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="10dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="    Publish article    "
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@drawable/edittextbackground"
+        />
+
+
+</LinearLayout>

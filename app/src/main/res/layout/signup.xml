@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#404040">
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:gravity="center"
+       android:layout_height="match_parent">
+
+       <androidx.appcompat.widget.AppCompatImageView
+           android:layout_width="60dp"
+           android:layout_height="60dp"
+           android:src="@drawable/user"
+           android:tint="@color/white"
+
+           />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+           android:text="SIGN UP"
+            android:textSize="40dp"
+           android:textAlignment="center"
+           android:textColor="@color/white"
+           android:textStyle="bold"
+
+           />
+
+       <EditText
+           android:layout_width="300dp"
+           android:layout_height="50dp"
+           android:background="@drawable/edittextbackground"
+           android:layout_marginTop="20dp"
+           android:hint="Username*"
+           android:textColorHint="@color/white"
+           android:textAlignment="textStart"
+           android:paddingLeft="20dp"
+           android:inputType="text"
+           android:textSize="20dp"
+           android:textColor="@color/white"
+           tools:ignore="RtlCompat" />
+
+
+       <EditText
+           android:layout_width="300dp"
+           android:layout_height="50dp"
+           android:background="@drawable/edittextbackground"
+           android:layout_marginTop="20dp"
+           android:hint="Email*"
+           android:textColor="@color/white"
+           android:textColorHint="@color/white"
+           android:textAlignment="textStart"
+           android:paddingLeft="20dp"
+           android:inputType="textEmailAddress"
+           android:textSize="20dp"
+           tools:ignore="RtlCompat" />
+
+       <EditText
+           android:textColor="@color/white"
+           android:layout_width="300dp"
+           android:layout_height="50dp"
+           android:background="@drawable/edittextbackground"
+           android:layout_marginTop="20dp"
+           android:hint="Password*"
+           android:textColorHint="@color/white"
+           android:textAlignment="textStart"
+           android:paddingLeft="20dp"
+           android:inputType="textPassword"
+           android:textSize="20dp"
+           tools:ignore="RtlCompat" />
+       <androidx.appcompat.widget.AppCompatButton
+           android:id="@+id/signup"
+           android:layout_width="150dp"
+           android:layout_height="60dp"
+           android:layout_marginTop="20dp"
+           android:textSize="15dp"
+           android:textStyle="bold"
+           android:textColor="@color/white"
+           android:background="@drawable/edittextbackground"
+            android:text="SIGN UP"
+           />
+
+       <LinearLayout
+           android:layout_marginTop="20dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+           <TextView
+               android:id="@+id/haveanaccountid"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Have an account ?"
+               android:textColor="@color/white"
+               android:linksClickable="true"
+               android:textSize="15dp"
+               />
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Forget Password ?"
+               android:layout_marginLeft="50dp"
+               android:textSize="15dp"
+               android:textColor="@color/white"
+               android:linksClickable="true"
+               />
+       </LinearLayout>
+
+
+
+
+   </LinearLayout>
+
+
+</LinearLayout>
