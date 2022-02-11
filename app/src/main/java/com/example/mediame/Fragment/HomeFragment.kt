@@ -38,6 +38,11 @@ class HomeFragment : Fragment() {
 
         val data=response.body()
         val myadapter =Adapter(data!!.articles as List<Myarticles.Article>)
+            myadapter.onClick={
+                Toast.makeText(context, "Title: $it", Toast.LENGTH_SHORT).show()
+                currentfragments(commentFragment())
+
+            }
 
             val recyclerview =view.findViewById<RecyclerView>(R.id.recyclerviewid)
 
@@ -57,12 +62,12 @@ class HomeFragment : Fragment() {
     })
 
 
-//        myobj.onClick = {title ->
-//
-//            Toast.makeText(context, "Title: $title", Toast.LENGTH_SHORT).show()
-//            currentfragments(commentFragment())
-//
-//        }
+        myobj.onClick = {title ->
+
+            Toast.makeText(context, "Title: $title", Toast.LENGTH_SHORT).show()
+            currentfragments(commentFragment())
+
+        }
 
     }
 

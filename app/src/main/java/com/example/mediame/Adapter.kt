@@ -57,11 +57,9 @@ class Adapter(val list: List<Myarticles.Article>) : RecyclerView.Adapter<Adapter
 
         holder.likeBtn.setOnClickListener {
 
-           //like button .. sohag er kache jante hobe..
-
         }
 
-            //comment e click korle ..new fragment open hobe..
+
         holder.commentId.setOnClickListener {
             onClick?.invoke(item.title.toString())
 
